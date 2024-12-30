@@ -1,0 +1,817 @@
+:root {
+  --pink: salmon;
+  --bg: #416797;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+body {
+  min-height: 100vh;
+  background-color: silver;
+}
+
+/* HERO START */
+.hero {
+  align-items: center;
+  background-color: var(--bg);
+  background-position: center;
+  background-size: cover;
+  max-width: 40%;
+  height: 100%;
+  min-height: 100vh;
+  z-index: 5;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+
+.hero h4 {
+  font-family: "Bellefair", cursive;
+  font-size: 2rem;
+  color: #ffffff;
+  animation: mySlidetop 3s ease 0s 1 normal forwards;
+  left: 0;
+  right: 0;
+  margin-top: -10%;
+  font-weight: 500;
+}
+
+.hero .hero-batas img {
+  width: 50%;
+  height: auto;
+  margin-top: 4%;
+}
+
+.hero h2 {
+  font-family: "Eyesome", sans-serif;
+  font-size: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 800;
+  color: #000000;
+  animation: mySlidetop 3s ease 0.5s 1 normal forwards;
+  text-shadow: 1px 1px 1px white;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  text-shadow: 5px 5px 5px black;
+}
+
+.hero a {
+  font-size: 1rem;
+  font-family: "Bellefair", cursive;
+  color: #ffffff;
+  background-color: var(--bg);
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  line-height: 0;
+  font-weight: 300;
+}
+
+.hero i {
+  font-size: 1.1rem;
+  color: #fff;
+  padding: 5px;
+}
+
+.hero a:hover {
+  background-color: var(--pink);
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.hero .card {
+  background: rgba(0, 0, 0, 0);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: fit-content;
+  text-align: center;
+  line-height: normal;
+}
+
+.hero .card-header {
+  font-size: 1.5rem;
+  font-family: "Haigrast-serif", sans-serif;
+  font-style: normal;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  font-weight: 500;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.hero .card-header span {
+  font-size: 2rem;
+  font-family: "Bellefair", sans-serif;
+  font-style: normal;
+  text-shadow: 1px 1px 1px rgb(70, 47, 47);
+  font-weight: 500;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  line-height: 0;
+}
+
+.hero .card-body {
+  font-family: "Haigrast-serif", sans-serif;
+  color: #000000;
+  font-size: 2rem;
+  border: none;
+  text-shadow: 1px 1px 2px rgb(255, 252, 252);
+  text-align: center;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.hero .card-body span {
+  color: #fff;
+}
+
+.hero .card-footer {
+  font-family: "Bellefair", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 100;
+  background-color: transparent;
+}
+
+/* BATAS HERO */
+
+/* HOME START */
+
+.home {
+  background-color: var(--bg);
+  background-blend-mode: lighten;
+  background-position: center;
+  background-size: cover;
+  min-height: 130vh;
+  max-width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -1rem;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.home .home-batas img {
+  height: auto;
+  margin-top: -5%;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.home h1,
+h2 {
+  color: #ffffff;
+  font-family: "Bellefair", sans-serif;
+  font-size: 2rem;
+}
+
+.home .wedding {
+  text-align: center;
+  width: 100%;
+  text-shadow: 1px 1px 1px white;
+}
+
+.home .dan h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+.home .wedding h2 {
+  font-family: "Yellowtail", cursive;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 10%;
+}
+
+.home .wedding h3 {
+  font-family: "Bellefair", Courier, monospace;
+  color: #fffdfd;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.home h4 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  font-family: "Haigrast-serif", sans-serif;
+  margin-bottom: 4rem;
+}
+
+.home p {
+  font-family: "Bellefair", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  position: flex;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+/* HOME END */
+
+/* BATAS INFO */
+
+.info {
+  background-color: var(--bg);
+  background-position: center;
+  background-size: cover;
+  color: rgb(1, 1, 1);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  top: 0;
+  position: flex;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info h1 {
+  color: #ffffff;
+  font-family: "Bellefair", sans-serif;
+  font-size: 2rem;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info h2 {
+  color: var(--bg);
+  font-family: "Yellowtail", cursive;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px white;
+  min-width: fit-content;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.info h3 {
+  font-family: "Bellefair", cursive;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.info .alamat {
+  font-size: 1.1rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.info .card-header {
+  font-size: 2.7rem;
+  font-family: "Haigrast-serif", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  color: #0a0a0a;
+}
+
+.info span,
+.info i,
+.info .card-header,
+.info .card-footer {
+  color: #0a0a0a;
+  font-weight: 600;
+}
+
+.info .acara {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.info .card {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+.info .card-body {
+  font-size: 1.1rem;
+  font-family: "Haigrast-serif", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info .card-footer {
+  border-top: 1px solid #999;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.info a:hover {
+  background-color: var(--pink);
+  color: white;
+}
+
+.info p {
+  font-family: "Bellefair", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  width: 70%;
+}
+
+.bukapeta a,
+.akad a {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--bg);
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.akad .btn i {
+  color: var(--bg);
+  font-size: 1.2rem;
+}
+
+.bukapeta a:hover,
+.akad a:hover {
+  background-color: var(--pink);
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  animation: step-end;
+}
+
+.info .simply-countdown {
+  padding-bottom: 1rem;
+}
+
+/* INFO ACARA END */
+
+/* ACARA START */
+
+.acara {
+  align-items: center;
+  background-color: var(--bg);
+  background-position: center;
+  background-size: cover;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-bottom: 4rem;
+  margin-top: -2rem;
+}
+
+.acara img {
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 18px;
+}
+/* ACARA END */
+
+/* AKAD START */
+.akad {
+  align-items: center;
+  background-image: url(gambar/pola1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 40%;
+  height: 100%;
+  min-height: 120vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.akadkon {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.akad .akadkon {
+  font-size: 1rem;
+  color: rgb(183, 0, 255);
+}
+
+.akadkon1 {
+  background-color: var(--bg);
+  max-width: 90%;
+  height: auto;
+  min-height: 45vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: flex;
+  border-radius: 18px 18px 1px 1px;
+  margin-bottom: 0.1rem;
+  padding-bottom: 3rem;
+}
+
+.akadkon2 {
+  background-color: var(--bg);
+  max-width: 90%;
+  height: auto;
+  min-height: 45vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: flex;
+  border-radius: 18px 18px 1px 1px;
+  padding-bottom: 3rem;
+}
+
+.akadkon1 .small-4,
+.akadkon2 .small-4 {
+  padding-top: 1rem;
+}
+
+.akadkon1 h1,
+.akadkon2 h1 {
+  font-family: "Eyesome", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.akadkon1 i,
+.akadkon2 i {
+  padding-top: 1rem;
+  font-family: "Haigrast-serif", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.akadkon1 h2,
+.akadkon2 h2 {
+  font-family: "Bellefair", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  color: white;
+}
+
+.akadkon1 h3,
+.akadkon2 h3 {
+  font-family: "Haigrast-serif", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  padding-bottom: 0.2rem;
+  line-height: 0;
+}
+
+.akadkon1 h4,
+.akadkon2 h4 {
+  font-family: "Haigrast-serif", sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  margin-bottom: -1rem;
+  max-width: 95%;
+}
+
+.akadkon1 span i {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.akadkon span {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 0;
+  display: inline-table;
+  padding-bottom: 1.4rem;
+}
+
+.akadkon .a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.akadkon .bukapeta a {
+  font-size: 1rem;
+}
+
+.akadkon2 {
+  background-color: var(--bg);
+  max-width: 90%;
+  height: auto;
+  min-height: 47vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: flex;
+  border-radius: 1px 1px 18px 18px;
+}
+
+/* END AKAD */
+
+/* GALLERY START */
+
+.gallery p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.gifts p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.gallery {
+  background-color: var(--bg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2.5rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 10vh;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.gallery #lery1 {
+  width: 50%;
+}
+
+.gallery #lery2 {
+  width: 50%;
+}
+
+.gallery h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.gallery h2 {
+  font-family: "Yellowtail", cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  line-height: 0.8;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+.gallery p {
+  font-family: "Haigrast-serif", sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  margin-bottom: -1rem;
+  max-width: 95%;
+}
+
+.gallery span {
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 0;
+  display: inline-table;
+  padding-bottom: 2.4rem;
+  padding-top: 2rem;
+}
+
+.gallery #foto {
+  width: 50%;
+  align-items: center;
+}
+
+.gallery .gift {
+  padding-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.gallery .gift a {
+  background-color: var(--bg);
+  color: #fff;
+  border-radius: 10px;
+  width: 7rem;
+}
+
+.gallery .gift a:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.gallery .gift p {
+  margin-bottom: 1rem;
+  width: 95%;
+}
+
+.gallery .bukapeta {
+  margin-bottom: -1rem;
+  padding: 10px;
+}
+
+.gallery .komentar {
+  margin-top: 4rem;
+}
+
+.gallery .komentar h1 {
+  font-family: "Yellowtail", cursive;
+  font-size: 2.5rem;
+}
+
+.komentar p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#komentar {
+  margin-top: -8rem;
+}
+
+/* END GALLERY */
+
+/* THANKS START */
+
+.thanks {
+  background: url(img/ARIS8745.jpg) center center/cover repeat fixed;
+  background-color: rgba(255, 255, 255, 0);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -2rem;
+  position: relative;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+
+.thanks .wedding {
+  width: 100%;
+  text-align: center;
+  margin-top: 50%;
+  text-shadow: 3px 0px 8px #000000;
+}
+
+.thanks h1 {
+  color: #ffffff;
+  font-family: "Katalina", cursive;
+  font-size: 3rem;
+  margin-bottom: -1rem;
+  padding-bottom: 0.5rem;
+}
+
+.wedfot h1 {
+  color: #ffffff;
+  font-family: "Katalina", cursive;
+  font-size: 1rem;
+  margin-bottom: -1rem;
+  padding-bottom: 0.5rem;
+}
+
+.thanks .wedding h2 {
+  font-family: "Bellefair", Times, serif;
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.thanks .wedding h3 {
+  font-family: "Eyesome", cursive;
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-bottom: 1.5rem;
+}
+
+.thanks .wedding p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: #000;
+}
+
+.thanks img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: difference;
+}
+
+.thanks .wedfot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 4rem;
+  text-shadow: 3px 0px 8px #000000;
+}
+
+footer {
+  padding: 1rem;
+  background-color: var(--bg);
+  color: white;
+  min-width: 40%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4rem;
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: var(--pink);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+footer a:hover {
+  color: rgb(255, 255, 255);
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+  font-size: 0.8rem;
+}
+/* THANKS END */
+
+/* tablet */
+@media (max-width: 568px) {
+  .hero,
+  .home,
+  .info,
+  .acara,
+  .akad,
+  .gallery,
+  .thanks {
+    min-width: 100%;
+  }
+
+  footer {
+    min-width: 100%;
+  }
+
+  footer a {
+    font-size: 0.8rem;
+  }
+}
